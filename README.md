@@ -40,7 +40,7 @@ Yemen Aqar App allows users to browse and manage properties and real estate offi
 
 ## 📷 Screenshots
 
-![Home Page](assets/images/yemenaqarhom.png)  
+![Splash Screen](assets/images/1splashscreen.png)
 ![Admin Dashboard](assets/images/admin-dashboard.png)  
 ![Property Search](assets/images/property-search.png)  
 
