@@ -1,16 +1,46 @@
-# yemen_aqar
 
-A new Flutter project.
+# 🏠 Yemen Aqar – Real Estate Mobile App
 
-## Getting Started
+A comprehensive cross-platform real estate mobile application built with **Flutter** for Android  connected to a **Laravel RESTful API** backend with **MySQL** database. The app allows users to browse, search, and manage properties efficiently, while providing a secure admin dashboard for managing offices, properties, and users.
 
-This project is a starting point for a Flutter application.
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 📌 Project Description
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Yemen Aqar App allows users to browse and manage properties and real estate offices comprehensively. Features include secure authentication, subscription tracking, office verification by admin, advanced property search, and a responsive UI for smooth experience on both Android and iOS devices.
+
+---
+
+## ✨ Main Features
+
+- **Authentication & Security:** Complete login system for offices and users with token-based authorization and biometric login.
+- **Property Management:** Add, edit, and delete properties for approved offices.
+- **Advanced Search:** Real-time filters, location-based queries, and Google Maps integration.
+- **Navigation:** Easy access to My Account, Search, Cart, and All Sections.
+- **Notifications:** Instant updates using Firebase Messaging.
+- **Admin Dashboard:** Manage offices, properties, and users with comprehensive control.
+- **Responsive UI:** Elegant interface across various screen sizes with custom Flutter widgets and animations.
+- **Performance Optimization:** Efficient state management and optimized API responses for smooth experience.
+
+---
+
+## 🛠️ Technologies Used
+
+- **Frontend:** Flutter, Dart  
+- **Backend:** Laravel, PHP, RESTful API  
+- **Database:** MySQL  
+
+---
+
+## 📷 Screenshots
+
+![Home Page](assets/images/yemenaqarhom.png)  
+![Admin Dashboard](assets/images/admin-dashboard.png)  
+![Property Search](assets/images/property-search.png)  
+
