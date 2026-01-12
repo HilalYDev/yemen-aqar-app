@@ -52,11 +52,12 @@ class DefaultFirebaseOptions {
     }
   }
 
-  static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyDjUh2P6Sk7JlgUbylSQwgmrLboZTzS4m4',
-    appId: '1:558442033627:android:5ce75548ab0ec0e15177fe',
-    messagingSenderId: '558442033627',
-    projectId: 'yemenaqar-552c2',
-    storageBucket: 'yemenaqar-552c2.firebasestorage.app',
+  static FirebaseOptions android = FirebaseOptions(
+    apiKey: const String.fromEnvironment('FIREBASE_API_KEY'),
+    appId: const String.fromEnvironment('FIREBASE_APP_ID'),
+    messagingSenderId: const String.fromEnvironment('FIREBASE_MESSAGING_SENDER_ID'),
+    projectId: const String.fromEnvironment('FIREBASE_PROJECT_ID'),
+    storageBucket: const String.fromEnvironment('FIREBASE_STORAGE_BUCKET'),
   );
+
 }
